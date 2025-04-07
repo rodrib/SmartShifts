@@ -54,7 +54,7 @@ project_7_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Modelos": [ project_2_page, project_3_page,project_4_page],
+        "Modelos": [ project_2_page, project_3_page,project_4_page,project_5_page,project_6_page ],
         "KPI": [project_7_page],
         #"Base de Datos": [project_6_page]
     }
