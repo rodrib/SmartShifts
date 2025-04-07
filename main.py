@@ -11,32 +11,32 @@ about_page = st.Page(
 
 
 project_2_page = st.Page(
-    "views/estadisticas.py",
-    title="Estadisticas",
+    "views/modelo1.py",
+    title="Modelo 1",
     icon=":material/smart_toy:",
 )
 
 project_3_page = st.Page(
-    "views/programas.py",
-    title="Programas",
+    "views/modelo2.py",
+    title="Modelo 2",
     icon=":material/bar_chart:",
 )
 
 project_4_page = st.Page(
-    "views/estadisticasdin.py",
-    title="Estadistica Dinamica",
+    "views/modelo3.py",
+    title="Modelo 3",
     icon=":material/bar_chart:",
 )
 
 project_5_page = st.Page(
-    "views/citogenetica.py",
-    title="Citogenetica Dinamica",
+    "views/modelo4.py",
+    title="Modelo 4",
     icon=":material/bar_chart:",
 )
 
 project_6_page = st.Page(
-    "views/bd_cito.py",
-    title="Citogenetica",
+    "views/modelo5.py",
+    title="Modelo 5",
     icon=":material/database:",
 )
 
