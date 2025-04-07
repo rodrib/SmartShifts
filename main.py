@@ -36,7 +36,7 @@ project_5_page = st.Page(
 
 project_6_page = st.Page(
     "views/modelo5.py",
-    title="Modelo 5",
+    title="Modelo 5 IGEHM",
     icon=":material/database:",
 )
 
