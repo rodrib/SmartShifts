@@ -12,19 +12,19 @@ about_page = st.Page(
 
 project_2_page = st.Page(
     "views/modelo1.py",
-    title="Modelo 1",
+    title="Modelo 1 IGEHM",
     icon=":material/smart_toy:",
 )
 
 project_3_page = st.Page(
     "views/modelo2.py",
-    title="Modelo 2",
+    title="Modelo 2 DS",
     icon=":material/bar_chart:",
 )
 
 project_4_page = st.Page(
     "views/modelo3.py",
-    title="Modelo 3",
+    title="Modelo 3 AT",
     icon=":material/bar_chart:",
 )
 
@@ -40,6 +40,12 @@ project_6_page = st.Page(
     icon=":material/database:",
 )
 
+project_7_page = st.Page(
+    "views/kpi.py",
+    title="KPI",
+    icon=":material/database:",
+)
+
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -48,8 +54,8 @@ project_6_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Modelos": [ project_2_page, project_4_page,project_3_page],
-        #"Citogenetica": [project_5_page],
+        "Modelos": [ project_2_page, project_3_page,project_4_page],
+        "KPI": [project_7_page],
         #"Base de Datos": [project_6_page]
     }
 )
