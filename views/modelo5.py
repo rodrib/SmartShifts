@@ -198,7 +198,10 @@ servicios_predefinidos = [
     {"nombre": "Rehabilitación", "hora_inicio": "08:00", "hora_fin": "10:30", "lugar": "N6", "tiempo_atencion": 30},
     {"nombre": "Salud Mental", "hora_inicio": "12:30", "hora_fin": "15:00", "lugar": "N8", "tiempo_atencion": 30},
     {"nombre": "Neumologia", "hora_inicio": "10:00", "hora_fin":"11:00","lugar": "Hdia", "tiempo_atencion":30},
-    {"nombre": "IGeHM-TS", "hora_inicio": "8:00", "hora_fin": "15:00","lugar": "N7", "tiempo_atencion":30}
+    {"nombre": "IGeHM-TS", "hora_inicio": "8:00", "hora_fin": "15:00","lugar": "N7", "tiempo_atencion":30},
+    {"nombre": "Gastroenterologia", "hora_inicio":"8:00", "hora_fin":"9:30","lugar":"Hdia2","tiempo_atencion":30},
+    {"nombre": "IGeHM-SM", "hora_inicio":"12:00","hora_fin":"17:00","lugar":"N8","tiempo_atencion":30},
+    {"nombre": "IGeHM-MA", "hora_inicio":"7:00","hora_fin":"13:00","lugar":"N8","tiempo_atencion":30}
 ]
 
 use_predefined = st.sidebar.checkbox("Usar servicios predefinidos", value=True)
